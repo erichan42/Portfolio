@@ -59,14 +59,14 @@ a {
 }
 
 .navbar>ul>a>li {
-    color:#F1F1F1;
+    color:#F4F4F4;
     padding:25px 10px 25px 10px;
     text-align:center;
     transition: 0.3s;
 }
 
 .navbar>ul>a>li:hover {
-    background-color:#F1F1F1;
+    background-color:#F4F4F4;
     text-decoration:underline;
     color:#303030;
 }
@@ -116,7 +116,7 @@ a {
     transform: translateY(-50%);
     text-align:center;
     font:normal bold 28px Arial;
-    color:#F1F1F1;
+    color:#F4F4F4;
 }
 
 #button-start>h2 :hover {
@@ -128,7 +128,7 @@ a {
 }
 
 .home {
-    background-color:#F1F1F1;
+    background-color:#F4F4F4;
     min-height: 100%;
 }
 @media screen and (max-width: 768px) {
@@ -142,7 +142,7 @@ a {
 }
 
 .skills {
-    background-color:#F1F1F1;
+    background-color:#F4F4F4;
 }
 
 .projects {
@@ -151,7 +151,7 @@ a {
 }
 
 .forward-slash {
-    background:#F1F1F1;
+    background:#F4F4F4;
     margin:0;
     width: 100%;
     height: 100px;
@@ -191,11 +191,11 @@ a {
 .white-block {
     width:100%;
     height:1px;
-    background:#f1f1f1;
+    background:#F4F4F4;
 }
 
 .fill-white {
-    background:#f1f1f1;
+    background:#F4F4F4;
     margin-top:1px;
     width: 100%;
     height: 100px;
@@ -212,7 +212,7 @@ h3 {
 }
 
 .title-light {
-    color:#F4F4F4;
+    color:#FAFAFA;
 }
 
 p {
@@ -222,7 +222,7 @@ p {
 }
 
 p.light {
-    color:#F4F4F4;
+    color:#FAFAFA;
 }
 
 hr.line-dark {
@@ -232,5 +232,5 @@ hr.line-dark {
 
 hr.line-light {
     border: 0;
-    border-top:1px solid #F4F4F4;
+    border-top:1px solid #FAFAFA;
 }
