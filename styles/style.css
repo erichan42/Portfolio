@@ -132,6 +132,11 @@ a {
     background-color:#F1F1F1;
     min-height: 100%;
 }
+@media screen and (max-width: 768px) {
+    a {
+        min-height: 80%;
+    }
+}
 
 .about {
     background-color: #252525;
