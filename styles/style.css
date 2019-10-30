@@ -11,8 +11,7 @@ html, body {
 div.container {
     padding: 50px;
     margin: auto;
-    min-width: 33%;
-    max-width: 50%;
+    width: 50%;
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -20,10 +19,18 @@ div.container {
 div.container-gray {
     padding: 50px;
     margin: auto;
-    min-width: 33%;
-    max-width: 50%;
+    width: 50%;
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    div.container {
+        width:80%;
+    }
+    div.container-gray {
+        width:80%;
+    }
 }
 
 .navbar {
